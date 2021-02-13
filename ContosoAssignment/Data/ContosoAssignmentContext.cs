@@ -17,6 +17,7 @@ namespace ContosoAssignment.Data
     
         public ContosoAssignmentContext() : base("name=ContosoAssignmentContext")
         {
+
         }
 
         public System.Data.Entity.DbSet<Assignment2.Models.Trainer> Trainers { get; set; }
